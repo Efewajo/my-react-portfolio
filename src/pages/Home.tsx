@@ -67,7 +67,7 @@ export default function HomePage() {
                 <a href="#skills" className="hover:text-gray-700 transition">Skills</a>
                 <a href="#contact" className="hover:text-gray-700 transition">Contact</a>
                 <a
-                  href="/Onodjaefe Wanogho Isaac CV.docx"
+                  href="./Onodjaefe Wanogho Isaac CV.pdf"
                   className="inline-block px-5 py-2 rounded-lg bg-gradient-to-r from-gray-500 to-gray-700 text-white text-sm shadow-lg border border-gray-500"
                 >
                   Download CV
@@ -95,7 +95,7 @@ export default function HomePage() {
                 <a href="#skills" onClick={() => setMenuOpen(false)} className="py-2">Skills</a>
                 <a href="#contact" onClick={() => setMenuOpen(false)} className="py-2">Contact</a>
                 <a
-                  href="/Onodjaefe Wanogho Isaac CV.docx"
+                  href="./Onodjaefe Wanogho Isaac CV.pdf"
                   onClick={() => setMenuOpen(false)}
                   className="inline-block px-5 py-2 rounded-lg bg-gradient-to-r from-gray-500 to-gray-700 text-white text-sm shadow-lg border border-gray-500 text-center"
                 >

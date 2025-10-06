@@ -1,16 +1,13 @@
-// src/App.tsx
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HashRouter } from "react-router-dom"; // Use HashRouter for GitHub Pages
+import App from "./App.tsx";
+import "./index.css";
 
-const App = () => {
-  return (
-    <Router>
-      <Routes>
-        {/* Route to Home.tsx */}
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-  )
-}
-
-export default App
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <HashRouter>
+      <App />
+    </HashRouter>
+  </React.StrictMode>
+);
